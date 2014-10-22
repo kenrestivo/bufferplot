@@ -23,7 +23,7 @@
 (defn plot-data
   [name in out]
   (let [p  (plot-buffer* name in)]
-    ;;(save @plot "/home/cust/knyo/logs/denny.png" :width 1280 :height 768)
+    ;;(save @plot (str out ".png") :width 1280 :height 768)
     (save-pdf p out :width 1280 :height 768)))
 
 
