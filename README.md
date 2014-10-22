@@ -1,36 +1,34 @@
 # bufferplot
 
-FIXME: description
+Displays buffer log from liquidsoap prettily.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+	lein bin
+
+Binary will be in target/bufferplot
 
 ## Usage
 
-FIXME: explanation
+	./bufferplot "name for top of chart" /path/to/buffer.log output-filename.pdf
 
-    $ java -jar bufferplot-0.1.0-standalone.jar [args]
+
+Output format is just pdf for now.
 
 ## Options
 
-FIXME: listing of options this app accepts.
+None yet
 
 ## Examples
 
-...
+
 
 ### Bugs
 
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 ken restivo <ken@restivo.org>
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
