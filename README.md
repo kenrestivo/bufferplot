@@ -2,11 +2,18 @@
 
 Displays buffer log from liquidsoap prettily.
 
-## Installation
+## Build
 
 	lein bin
 
 Binary will be in target/bufferplot
+
+
+## Installation
+	You can
+```sh
+	sudo install -u root -g root target/bufferplot /usr/local/bin/bufferplot
+```
 
 ## Requirements
 
