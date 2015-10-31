@@ -2,6 +2,8 @@
 
 Displays buffer log from liquidsoap prettily.
 
+![Alt text](http://storage.restivo.org/images/buffer-small.jpg "Example")
+
 ## Build
 
 	lein bin
