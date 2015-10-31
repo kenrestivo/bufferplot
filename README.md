@@ -24,7 +24,7 @@ Binary will be in target/bufferplot
 ## Usage
 
 ```sh
-	./bufferplot "name for top of chart" /path/to/buffer.log output-filename.pdf
+	bufferplot "name for top of chart" /path/to/buffer.log output-filename.pdf
 ```
 
 If you're running it on a server you should also:
